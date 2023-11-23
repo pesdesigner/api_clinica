@@ -45,6 +45,9 @@ public class Paciente {
         if (dados.nome() != null)
             this.nome = dados.nome();
 
+        if (dados.email() != null)
+            this.email = dados.email();
+
         if (dados.telefone() != null)
             this.telefone = dados.telefone();
 
