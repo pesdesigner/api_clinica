@@ -1,4 +1,4 @@
-package com.graficoeweb.api.especialidade;
+package com.graficoeweb.api.domain.especialidade;
 
 public enum Especialidade {
     ORTOPEDIA,

@@ -1,6 +1,6 @@
-package com.graficoeweb.api.medico;
+package com.graficoeweb.api.domain.medico;
 
-import com.graficoeweb.api.especialidade.Especialidade;
+import com.graficoeweb.api.domain.especialidade.Especialidade;
 
 public record DadosListagemMedico(Long id ,String nome, String email, String crm, Especialidade especialidade) {
 

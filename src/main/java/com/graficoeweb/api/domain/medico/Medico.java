@@ -1,9 +1,8 @@
-package com.graficoeweb.api.medico;
+package com.graficoeweb.api.domain.medico;
 
-import com.graficoeweb.api.endereco.Endereco;
-import com.graficoeweb.api.especialidade.Especialidade;
+import com.graficoeweb.api.domain.endereco.Endereco;
+import com.graficoeweb.api.domain.especialidade.Especialidade;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -48,6 +47,9 @@ public class Medico {
         }
         if (dados.telefone() != null) {
             this.telefone = dados.telefone();
+        }
+        if (dados.email() != null) {
+            this.email = dados.email();
         }
         if (dados.endereco() != null) {
             this.endereco.atualizarInformacoes(dados.endereco());
