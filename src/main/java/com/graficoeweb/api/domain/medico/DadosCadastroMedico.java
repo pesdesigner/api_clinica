@@ -1,7 +1,7 @@
-package com.graficoeweb.api.medico;
+package com.graficoeweb.api.domain.medico;
 
-import com.graficoeweb.api.especialidade.Especialidade;
-import com.graficoeweb.api.endereco.DadosEndereco;
+import com.graficoeweb.api.domain.endereco.DadosEndereco;
+import com.graficoeweb.api.domain.especialidade.Especialidade;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

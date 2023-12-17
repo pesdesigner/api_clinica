@@ -1,9 +1,8 @@
-package com.graficoeweb.api.medico;
+package com.graficoeweb.api.domain.medico;
 
-import com.graficoeweb.api.endereco.Endereco;
-import com.graficoeweb.api.especialidade.Especialidade;
+import com.graficoeweb.api.domain.endereco.Endereco;
+import com.graficoeweb.api.domain.especialidade.Especialidade;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

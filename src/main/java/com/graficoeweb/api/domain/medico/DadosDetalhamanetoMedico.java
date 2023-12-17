@@ -1,7 +1,7 @@
-package com.graficoeweb.api.medico;
+package com.graficoeweb.api.domain.medico;
 
-import com.graficoeweb.api.endereco.Endereco;
-import com.graficoeweb.api.especialidade.Especialidade;
+import com.graficoeweb.api.domain.endereco.Endereco;
+import com.graficoeweb.api.domain.especialidade.Especialidade;
 
 public record DadosDetalhamanetoMedico(Long id, String nome, String email, String telefone, String crm, Especialidade especialidade, Endereco endereco) {
 

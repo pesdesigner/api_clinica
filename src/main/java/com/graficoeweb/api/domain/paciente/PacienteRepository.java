@@ -1,4 +1,4 @@
-package com.graficoeweb.api.paciente;
+package com.graficoeweb.api.domain.paciente;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

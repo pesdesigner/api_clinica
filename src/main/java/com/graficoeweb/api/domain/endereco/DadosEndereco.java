@@ -1,4 +1,4 @@
-package com.graficoeweb.api.endereco;
+package com.graficoeweb.api.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

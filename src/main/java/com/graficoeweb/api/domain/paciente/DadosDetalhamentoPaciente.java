@@ -1,6 +1,6 @@
-package com.graficoeweb.api.paciente;
+package com.graficoeweb.api.domain.paciente;
 
-import com.graficoeweb.api.endereco.Endereco;
+import com.graficoeweb.api.domain.endereco.Endereco;
 
 public record DadosDetalhamentoPaciente(
         Long id,

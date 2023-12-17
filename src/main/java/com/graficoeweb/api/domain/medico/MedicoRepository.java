@@ -1,10 +1,8 @@
-package com.graficoeweb.api.medico;
+package com.graficoeweb.api.domain.medico;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.Optional;
 
 public interface MedicoRepository extends JpaRepository<Medico, Long> {
 
